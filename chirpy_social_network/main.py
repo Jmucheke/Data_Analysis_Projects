@@ -5,11 +5,6 @@ from verified_user import VerifiedUser
 # Initialize the Chirpy Social Network
 chirpy_network = SocialNetwork()
 
-verified_user = VerifiedUser("jes", "jes", "123")
-
-# Add both users to the network
-chirpy_network.add_user(verified_user, 'yes')
-
 def display_menu():
     print("\n Chirpy Social Media Platform")
     print("========================================")
