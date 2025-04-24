@@ -5,12 +5,20 @@ class RentalService:
 
     def add_vehicle(self, vehicle):
         # Add a vehicle to the rental system
-        pass
+        self.vehicles.append(vehicle)
+        print("Vehicle %s %s added to the rental service." % (vehicle.brand, vehicle.model))
 
     def list_available_vehicles(self):
         # List all vehicles not currently rented
-        pass
+        available = [v for v in self.vehicles if not v.is_rented]
+        if available:
+            print("Available vehicles:")
+            for v in available:
+                print(v)
+        else:
+            print("No vehicles available.")
 
     def add_customer(self, customer):
         # Add a customer to the system
-        pass
+        self.customers.append(customer)
+        print("Customer %s added to the rental service." % customer.name)
