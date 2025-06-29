@@ -5,6 +5,7 @@ runme:
 ---
 
 # 🏃‍♂️ Fitness Activity Data Analysis Project
+![fitness](fitness.png)
 
 ---
 This data is used to:
