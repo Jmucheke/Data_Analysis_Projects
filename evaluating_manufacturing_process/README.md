@@ -5,6 +5,7 @@ runme:
 ---
 
 # 📊 Statistical Process Control (SPC) in SQL
+![manufacturing gears](manufacturing.jpg)
 
 ## Overview
 
