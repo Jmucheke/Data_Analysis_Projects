@@ -44,11 +44,11 @@ This data is used to:
 
 ## 📌 Project Goal
 
-This project is a hands-on demonstration of your ability to turn raw data into actionable insights using Python. It simulates a real-world data analysis task.
+This project is a hands-on demonstration on how to turn raw data into actionable insights using Python. It simulates a real-world data analysis task.
 
 ## ✨ Deliverables
 
 - Clean, readable Python code
 - Visual plots saved as `.png` files
 - Documentation (this README)
-- Optional: Jupyter Notebook walkthrough or report summary
+- Optional: Jupyter Notebook walkthrough or report summary
